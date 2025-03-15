@@ -1,0 +1,19 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "useTabs": true,
+  "quoteProps": "as-needed",
+  "jsxSingleQuote": true,
+  "bracketSpacing": false,
+  "trailingComma": "es5",
+  "printWidth": 100,
+  "objectWrap": "preserve",
+  "bracketSameLine": true,
+  "arrowParens": "always",
+  "parser": "babel-ts",
+  "jsxBracketSameLine": true,
+  "singleAttributePerLine": false
+}
