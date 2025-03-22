@@ -34,32 +34,7 @@ img{
   justify-content: center;
 }
 
-.card{
-  border: 2px solid #f3f3f3 ;
-  padding: 20px;
-  width: 210px;
-  min-height: 260px;
-  border-radius: 20px;
 
-
-  h5{
-  flex: 1;
-  }
-  &:hover{
-    box-shadow: 0 18px 30px rgba(0,0,0,0.5);
-    transform: translateY(-5px);
-  }
-  .favorite{
-    position: absolute;
-    cursor: pointer;
-  }
-
-  span{
-    font-size: 14px;
-    opacity: 0.5;
-    text-transform: uppercase;
-  }
-}
 
 .button{
   background-color: #ffffff;
@@ -187,6 +162,9 @@ img{
     box-shadow: 0 18px 30px rgba(0,0,0,0.2);
     transform: translateY(-4px);
 
+  }
+  .cartItemImg{
+    width: 60px;
   }
 
   display: flex;
