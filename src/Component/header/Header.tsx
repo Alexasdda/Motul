@@ -1,4 +1,4 @@
-export function Header(props) {
+export function Header(props ) {
 	return (
 		<>
 			<header className="p-30">
@@ -14,13 +14,13 @@ export function Header(props) {
 					<ul className="headerRight d-flex align-center">
 						<li onClick={props.onClickCart} className="mr-30 cu-p ">
 							<img width={18} height={18} src='/img/Cart.svg' />
-							<span>1200 rub.</span>
+							<span>1200 usd</span>
 						</li>
 						<li>
 							<img width={18} height={18} src='/img/like.svg' />
 						</li>
 						<li>
-							<img width={18} height={18} src='/img/Union.svg' />
+							<img className='btnUser' onClick={() => props.onClickModal(true)} width={18} height={18} src='/img/Union.svg' />
 						</li>
 					</ul>
 

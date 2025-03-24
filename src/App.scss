@@ -49,6 +49,14 @@ img{
   border: 1px solid #f3f3f3;
   border-radius: 10px;
   padding: 0 15px;
+  position: relative;
+
+  .removeBtn{
+    position: absolute;
+    right: 0px;
+    margin-top: 8px;
+    margin-right: 6px;
+  }
 
   input{
     border: 0;
